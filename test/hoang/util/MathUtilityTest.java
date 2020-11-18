@@ -19,7 +19,7 @@ public class MathUtilityTest {
     public MathUtilityTest() {
         //the usecase of using getFactorial()
         //check if actual equal expected or not
-        //but in a higher performance:  in any test case's result, red or green color will be shown for a bug or not
+        //but in a higher performance:  in any test case's result, red color will be shown for a bug or green color if no bug was found 
         //Another case of using UnitTest:
         //CI - Countinous Integration
         //CD - Countinous Delivery
@@ -41,10 +41,7 @@ public class MathUtilityTest {
         assertEquals(120, getFactorial(5));
         assertEquals(720, getFactorial(6));
         assertEquals(1, getFactorial(0));
-        assertEquals(0, getFactorial(0));
-        
-        
-        //so sánh hàm sau vói 120, đúng thì xanh sai thì đỏ
+       //so sánh hàm sau vói 120, đúng thì xanh sai thì đỏ
     }
     
     
