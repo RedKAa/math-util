@@ -30,7 +30,7 @@ public class MathUtil {
         //expected: IllegalArgumentException if parameter is -5
         System.out.println("-5!: "+MathUtility.getFactorial(-5));
         
-        
+        System.out.println("I want to see the red or GREEN!");
         
     }
     
