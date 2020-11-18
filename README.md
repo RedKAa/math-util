@@ -13,4 +13,4 @@ getFactorial() ~n!
 
 ## Connect me via
 [FaceBook](https://facebook.com/nth777)
-#### Copy right ©2020 by Nguyen Hoang
+#### Copy right ©2020 by Mr Whale
