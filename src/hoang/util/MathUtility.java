@@ -16,20 +16,29 @@ public class MathUtility {
     public static final double PI = 3.1415;
 
     //tinh giai thua, am giai thua vo nghia, 21! long ko tinh dc -> 0!..20!
+//    public static long getFactorial(int n) {
+//        if (n < 0 || n > 20) {
+//            throw new IllegalArgumentException("n must be between 0..20!");
+//        }
+//        long result = 1;
+//        if (n == 0 || n == 1) {
+//            return 1;
+//        }
+//        for (int i = 2; i <= n; i++) {
+//            result *= i;
+//        }
+//        return result;
+//    }
+    //viết hàm đệ quy cho ngầu
     public static long getFactorial(int n) {
-        if (n < 0 || n > 20) {
-            throw new IllegalArgumentException("n must be between 0..20!");
+        if(n<0 || n > 20 ){
+            throw new IllegalArgumentException("n must be  between 0..20!");
         }
-        long result = 1;
-        if (n == 0 || n == 1) {
+        if(n == 0 || n ==1){
             return 1;
         }
-        for (int i = 2; i <= n; i++) {
-            result *= i;
-        }
-        return result;
+        return n*getFactorial(n-1);
     }
-//        return n*getFactorial(n-1);
     
-    
+   
 }
