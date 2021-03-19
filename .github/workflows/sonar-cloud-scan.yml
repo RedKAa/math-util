@@ -1,4 +1,4 @@
-name: Sonar-cloud-scan
+name: Automatic Code Review by SonarCloud | © 2020 by Mr.Whale
 on:
   push:
     branches:
