@@ -1,5 +1,5 @@
 # Wellcome to Math Utility repository
-![Practice CI with GitHub Actions using Ant and JUnit | © 2020 by Mr.Whale](https://github.com/RedKAa/math-util/workflows/Practice%20CI%20with%20GitHub%20Actions%20using%20Ant%20and%20JUnit%20%7C%20%C2%A9%202020%20by%20Mr.Whale/badge.svg)
+[![Practice CI with GitHub Actions using Ant and JUnit | © 2020 by Mr.Whale](https://github.com/RedKAa/math-util/actions/workflows/build.yml/badge.svg)](https://github.com/RedKAa/math-util/actions/workflows/build.yml)
 
 [![Automatic Code Review by SonarCloud | © 2020 by Mr.Whale](https://github.com/RedKAa/math-util/actions/workflows/sonar-cloud-scan.yml/badge.svg)](https://github.com/RedKAa/math-util/actions/workflows/sonar-cloud-scan.yml)
 
